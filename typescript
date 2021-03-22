@@ -1,0 +1,61 @@
+Script started on 2021-03-22 14:15:22+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;user@user-VirtualBox: ~/Desktop[01;32muser@user-VirtualBox[00m:[01;34m~/Desktop[00m$ java SchedulingAlgorithms inputFile.txt 
+0		A		Quantum expired
+2		B		Process terminated
+3		D		Process terminated
+4		E		Quantum expired
+6		A		Quantum expired
+8		C		Process terminated
+10		E		Quantum expired
+12		A		Quantum expired
+14		E		Process terminated
+15		A		Quantum expired
+17		A		Process terminated
+Round Robin Scheduling
+Process ID  Turn Around Time  Waiting time
+ A		19		 9
+ B		2		 1
+ C		7		 5
+ D		4		 3
+ E		14		 9
+Average 	9.2		5.4
+1		D		Process terminated
+2		B		Process terminated
+7		E		Process terminated
+9		C		Process terminated
+19		A		Process terminated
+Shortest Job First Scheduling
+Process ID  Turn Around Time  Waiting time
+A		19		9
+B		1		0
+C		6		4
+D		1		0
+E		6		1
+Average 	6.6		2.8
+10		A		Process preempted by process with shorter burst time
+1		D		Process preempted by process with shorter burst time
+1		D		Process terminated
+10		A		Process preempted by process with shorter burst time
+1		B		Process preempted by process with shorter burst time
+2		B		Process terminated
+10		A		Process preempted by process with shorter burst time
+5		E		Process preempted by process with shorter burst time
+2		C		Process preempted by process with shorter burst time
+5		C		Process terminated
+10		A		Process preempted by process with shorter burst time
+4		E		Process preempted by process with shorter burst time
+9		E		Process terminated
+10		A		Process preempted by process with shorter burst time
+19		A		Process terminated
+Shortest Remaining Time First
+Processes ID  Turnaround time  Waiting time 
+ A		 19		9
+ B		 1		0
+ C		 2		0
+ D		 1		0
+ E		 8		3
+Average 	6.2		2.4
+]0;user@user-VirtualBox: ~/Desktop[01;32muser@user-VirtualBox[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2021-03-22 14:15:36+05:30 [COMMAND_EXIT_CODE="0"]
